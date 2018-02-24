@@ -1,0 +1,25 @@
+package lesson5;
+
+public class Task05IndependenceWork {
+//	Task 6(indexOf). Написать метод в качестве параметра должен 
+//	принимать 2 строки s и s1.
+//	Определить входит ли строка s в строку s1.(Является ли s
+//	подстрокой s1).
+//	метод должен вернуть значение boolean. (true - если входит)
+	
+	public static void main (String [] args)
+	{
+		String first = "dfhjsuwe sfois asifu io";
+		String second = "io";
+		System.out.println(myMethod(first, second));
+	}
+	
+	public static boolean myMethod(String s, String s1)
+	{
+		
+		return s.startsWith(s1);
+				
+	}
+	// "Раскраска".indexOf("рас")
+	// startsWith(String sub, int ind)
+}

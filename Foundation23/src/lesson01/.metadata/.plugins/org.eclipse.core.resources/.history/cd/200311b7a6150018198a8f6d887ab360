@@ -1,0 +1,25 @@
+package lesson5;
+
+public class Task04IndependanceWork {
+	public static void main (String [] args)
+	{
+//		Task 5(charAt). Написать метод, принимающий в качестве 
+//		параметра строку и 
+//		определяющий равны ли первый и последний символ в строке.
+//		boolean isFirstLastCharsEquals(String s)
+		
+		String str = " dfgfujoiopokjghfdsfghjd";
+		
+		System.out.println(isFirstLastCharsEquals(str));
+		
+		
+	}
+	
+	public static boolean isFirstLastCharsEquals(String s)
+	{
+		char first = s.charAt(0);
+		char last = s.charAt(s.length()-1);
+		
+		return first == last;
+	}
+}

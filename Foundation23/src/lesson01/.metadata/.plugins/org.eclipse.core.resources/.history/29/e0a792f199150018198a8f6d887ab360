@@ -1,0 +1,11 @@
+package lesson5;
+
+public class Task01 {
+	public static void main (String[] args)
+	{
+		char ch = 'A';
+		char ch2 = 65;
+		int i = ch+5;
+		System.out.println(i);
+	}
+}

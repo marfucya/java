@@ -1,0 +1,26 @@
+package lesson5;
+
+public class Task10IndependenceWork11 {
+//	Task 11: Написать метод, который принимает строку и возвращает
+//	массив целых чисел с индексами, где встречаются символы 'а'.
+	
+	public static void main (String [] args)
+	{
+		String str = "sdjh jshdjg asdjhj asiduue";
+		myMethod(str);
+	}
+	
+	public static int [] myMethod(String s)
+	{
+		int [] array = null;
+		for (int i=0; i<s.length(); i++)
+		{
+			if (s.indexOf('a') >0)
+			{
+				array[i] = i;	
+			}
+		}
+		return array;
+		
+	}
+}

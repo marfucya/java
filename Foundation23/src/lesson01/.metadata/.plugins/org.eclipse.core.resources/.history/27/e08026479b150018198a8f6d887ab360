@@ -1,0 +1,18 @@
+package lesson5;
+
+public class Task02Строки {
+	public static void main (String [] args)
+	{
+		String str = new String ("stroka01");
+		System.out.println(str);
+		
+		String str2 = "stroka02";
+		System.out.println(str2);
+		
+		String str3 = new String (arr);
+		char ch = 'A';
+		char ch2 = 65;
+		char [] arr = {ch, 'r', 'r', ch2, 'y'};
+		System.out.println(str3);
+	}
+}

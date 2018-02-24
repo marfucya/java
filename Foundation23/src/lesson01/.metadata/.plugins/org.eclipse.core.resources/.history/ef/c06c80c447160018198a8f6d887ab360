@@ -1,0 +1,43 @@
+package lesson5;
+
+public class Task05IndependenceWork {
+//	Task 6(indexOf). Написать метод в качестве параметра должен 
+//	принимать 2 строки s и s1.
+//	Определить входит ли строка s в строку s1.(Является ли s
+//	подстрокой s1).
+//	метод должен вернуть значение boolean. (true - если входит)
+	
+	public static void main (String [] args)
+	{
+		String first = "dfhjsuwe sfois io asifu ";
+		String second = "io";
+		//myMethod(first, second);
+		System.out.println(myMethod(first, second));
+	}
+	
+	public static boolean myMethod(String s, String s1)
+	{
+		//int a = s.in
+	return	 s.contains(s1);	
+		
+			
+	    //   bool b = s1.Contains(s2);
+		
+//		String[] words = s.split(" ");
+//		String[] words2 = s1.split(" ");
+//		for (int i=0; i < words.length; i++)
+//		{
+//			if (words[i] == words2[i])
+//			{
+//				System.out.println("true");
+//			}
+//			else
+//			{
+//				System.out.println("false");
+//			}
+//		}
+//		
+	}	
+					
+	
+}

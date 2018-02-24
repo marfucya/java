@@ -1,0 +1,20 @@
+package lesson6;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Task01 {
+	public static void main (String [] args) throws IOException
+{
+	FileWriter fw = new FileWriter("text.txt", true);
+	fw.write("stroka 1");
+	fw.write("stroka 2");
+	fw.write("stroka 3");
+	fw.write("stroka 4");
+	fw.write("stroka 5");
+	
+	fw.flush(); // принудительно записывает данные с буфера в файл 
+	fw.close();
+	
+}
+}

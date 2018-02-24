@@ -1,0 +1,25 @@
+package lesson6;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Task05HomeWork5 {
+//	Task 6. метод, который вставляет элемент внутрь списка и возвращает его.
+//	insertElement(ArrayList<Integer> vector, int index, Integer element) 
+
+
+	public static void main (String [] args)
+	{
+		
+		ArrayList<Integer> list = (ArrayList<Integer>) Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12);
+		
+		System.out.println(list);
+		insertElement(list, 3, 8);
+	}
+	
+	public static void insertElement(ArrayList<Integer> vector, int index, int element)
+	{
+		vector.add(index, element);
+		System.out.println(vector);
+	}
+}

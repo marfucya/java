@@ -1,0 +1,9 @@
+package lesson5;
+
+public class Task02Строки {
+	public static void main (String [] args)
+	{
+		String str = new String ("stroka01");
+		System.out.println(str);
+	}
+}

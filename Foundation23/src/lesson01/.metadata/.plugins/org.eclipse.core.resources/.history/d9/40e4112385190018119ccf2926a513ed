@@ -1,0 +1,16 @@
+package lesson6;
+
+public class Task05HomeWork5 {
+//	Task 5. метод, который выводит список на экран. 
+//	Формат вывода:
+//	[0] = 10
+//	[1] = 20
+//	[2] = 30
+
+	public static void main (String [] args)
+	{
+		
+	}
+	
+	public static void myMethod 
+}
